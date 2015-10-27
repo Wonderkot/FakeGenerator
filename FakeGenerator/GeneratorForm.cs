@@ -137,17 +137,13 @@ namespace FakeGenerator
 				{
 					File.Delete(savePath);
 				}
-				var random = new Random();
+				//				var random = new Random();
 				var length = size * 1024;
 				toolStripStatusLabel.Text = @"Создание файла.";
-				const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-
-				var bytes = new string(Enumerable.Repeat(chars, (int)length)
-				 .Select(s => s[random.Next(s.Length)]).ToArray());
+				//				const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+				var bytes = new string('a', (int)length);
 				toolStripStatusLabel.Text = @"Создание файла..";
 				toolStripStatusLabel.Text = @"Создание файла";
-
-
 				if (cbBase64.Checked)
 				{
 					using (var ms = new FileStream(savePath, FileMode.Create))
@@ -167,22 +163,6 @@ namespace FakeGenerator
 						tr.Flush();
 					}
 				}
-
-
-				//				if (cbBase64.Checked)
-				//				{
-				//					var base64String = Convert.ToBase64String(bytes);
-				//					var array = Encoding.UTF8.GetBytes(base64String);
-				//					fs.Write(array, 0, array.Length);
-				//				}
-				//				else
-				//				{
-				//					fs.Write(bytes, 0, bytes.Length);
-				//				}
-				//				fs.Flush();
-				//				fs.Close();
-				//				fs.Dispose();
-
 				toolStripStatusLabel.Text = @"Файл успешно создан";
 			}
 			catch (Exception e)
