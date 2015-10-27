@@ -1,0 +1,8 @@
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.Properties.Resources.resources
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.csproj.GenerateResource.Cache
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\bin\Debug\FakeGenerator.exe
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\bin\Debug\FakeGenerator.pdb
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.GeneratorForm.resources
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.exe
+c:\users\wonderkot\documents\visual studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.pdb
+C:\Users\Wonderkot\Documents\Visual Studio 2010\Projects\FakeGenerator\FakeGenerator\obj\x86\Debug\FakeGenerator.csprojResolveAssemblyReference.cache
